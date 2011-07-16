@@ -1,0 +1,47 @@
+$color: #555
+$accent_color: #777
+
+html
+  margin: 0
+  padding: 0
+
+body
+  @extend html
+  background: white
+  font-family: "Segoe UI", Segoe, Tahoma, Arial, sans-serif
+  font-size: 17px
+  color: $color
+
+strong
+  color: $accent_color
+
+h1
+  @extend strong
+  font-size: 200%
+  text-align: center
+  line-height: 150%
+
+#main
+  width: 700px
+  margin: 100px auto 0 auto
+  text-align: justify
+  line-height: 150%
+
+a:link, a:visited
+  font-weight: bold
+  color: blue
+  text-decoration: none
+
+a:hover, a:active
+  border-bottom: 1px solid red
+  color: red
+
+
+span
+  color: red
+  font-weight: bold
+  padding-left: 3px
+
+p.small
+  font-size: 85%
+  color: #999
